@@ -1,0 +1,74 @@
+html,
+body {
+  margin:auto;
+   font-size: 18px;
+  font-family: "Helvetica", sans serif;
+   line-height: 1.4em;
+  color: GhostBlack;
+}
+Header{ background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vincent_van_Gogh_-_s0273V1962_-_Van_Gogh_Museum.jpg/330px-Vincent_van_Gogh_-_s0273V1962_-_Van_Gogh_Museum.jpg') no-repeat center left fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 12em;
+  padding: 3em 2em;
+}
+header h1 {
+  color: white;
+  display: inline;
+  background-color: darkgreen;
+  padding: 0.55em 1.25em;
+  font-family: cursive;
+  font-size: 2.5em;
+}
+
+h4 {
+  display: inline;
+  background-color: darkgreen;
+  padding: 0.75em 1.25em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 85%;
+  letter-spacing: 0.125em;
+}
+
+.about {
+  margin: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+}
+  /* Gallery */
+
+.gallery {
+  width:100%;
+  height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.gallery-item {
+  margin:25px;
+  text-align:center;
+  height:300px;
+  border-style: dotted;
+  box-shadow: 10px 10px 10px #E5E5E5;
+  border-radius: 10px;
+  border-color: #49BE70 ;
+  background-color:#EEF0EF  ;
+}
+
+.gallery-item img{
+  width: 300px;
+  height:200px;
+  margin-top:25px;
+}
+
